@@ -14,10 +14,7 @@
 			<span id="description">
 				<?php bloginfo('description'); ?>
 			</span>
-			<!--<form id="search" method="get" action="<?php bloginfo('siteurl')?>/">
-				<input type="text" name="s" id="searchbox" class="textbox" value="<?php echo wp_specialchars($s, 1); ?>" />
-				<input id="btnSearch" type="submit" name="submit" value="<?php _e('Search'); ?>" />
-			</form>-->
+			
 		</div>
 		<h1><a href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a></h1>
 	</div>
